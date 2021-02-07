@@ -17,8 +17,9 @@ const ChannelList: React.FC = () => {
       <ChanellButton channelName="vue" />
 
       <ChanellButton channelName="react-native" />
-
       <ChanellButton channelName="ui-ux" />
+
+      <ChanellButton channelName="dúvidas" />
     </Container>
   );
 };

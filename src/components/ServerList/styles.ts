@@ -9,9 +9,8 @@ export const Container = styled.div`
 
   background-color: var(--tertiary);
   padding: 11px 0;
-
-  max-height: 100vh;
-  overflow-y: scroll;
+  height: 100vh;
+  overflow: auto;
 
   ::-webkit-scrollbar {
     display: none;
@@ -21,6 +20,5 @@ export const Container = styled.div`
 export const Separator = styled.div`
   width: 32px;
   border-bottom: 2px solid var(--quaternary);
-
   margin-bottom: 8px;
 `;

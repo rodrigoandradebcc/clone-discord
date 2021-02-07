@@ -7,11 +7,12 @@ export const Button = styled.button<Props>`
   align-items: center; //V
   justify-content: center: //H
 
-  flex-shrink: 0; //Não deixa o botão ficar espremido
+  flex-shrink: 0 ;
 
   width: 48px;
   height: 48px;
   border-radius: 50%;
+
 
   margin-bottom: 8px;
 

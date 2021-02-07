@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from 'react';
 import { Container, Messages, InputWrapper, Input, InputIcon } from './styles';
 import ChannelMessage, { Mention } from '../ChannelMessage';
 
-const text = ', me carrega no LoL e CS de novo por favor?';
+const text = ', vamos estudar React hoje?';
 const ChannelData: React.FC = () => {
   const messagesRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 
@@ -31,7 +31,7 @@ const ChannelData: React.FC = () => {
           date="21/06/2020"
           content={
             <>
-              <Mention>@Guilherme Rodz</Mention>
+              <Mention>@Manoel Neto</Mention>
               {text}
             </>
           }

@@ -42,23 +42,20 @@ export const InputWrapper = styled.div`
 export const Input = styled.input`
   width: 100%;
   height: 44px;
-
   padding: 0 10px 0 57px;
   border-radius: 7px;
-
   color: var(--white);
   background-color: var(--chat-input);
-
   position: relative;
-
   &::placeholder {
     color: var(--gray);
   }
 
   ~ svg {
     position: relative;
-    top: -50%;
+    /* top: -50px; */
     left: 14px;
+    bottom: 36px;
     transition: 180ms ease-in-out;
   }
 `;
